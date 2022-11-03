@@ -29,10 +29,20 @@ section .sec {
 
 section .sec.sec1 {
   background: #b0ff54;
-  clip-path: circle(200px at 0 0);
+  clip-path: circle(300px at 0 0);
 }
 
 section .sec.sec2 {
   background: #03a9f4;
-  clip-path: circle(200px at 0 0);
+  clip-path: circle(200px at 100% 100%);
+}
+
+section h2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 18em;
 }
